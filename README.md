@@ -45,4 +45,4 @@
         - 쪽지 정보가 DB서버에 저장되고 쪽지함 목록 페이지로 이동
 ## 📞Contact
   - 이메일 : kojinsug0404@gmail.com
-  - 깃허브 : ![image](https://github.com/jinko0404/portfolio/assets/152952078/91b37125-f4e1-4d6c-9f54-89986a964d7f)(https://github.com/jinko0404)
+  - 깃허브 : https://github.com/jinko0404
