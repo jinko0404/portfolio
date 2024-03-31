@@ -9,7 +9,7 @@
 팀장으로써 프로젝트를 진행할 때는 프로젝트의 일정 관리, 팀원들의 의견 조율 등의 경험을 할 수 있었으며
 팀원으로써 팀장의 지시나 요구사항에 따라 프로젝트를 진행을 하는 등의 경험을 쌓을 수 있었습니다.
 
-### 1. Are You T(rip mate)?
+### 🛫1. Are You T(rip mate)?
 * 여행 동행 친구 모집 사이트(KH정보교육원 - 1조 팀프로젝트)
   - 프로젝트 상세 설명 : https://github.com/2311PublicDataWebApp/AreYouT.git
   - 개발 기간 : 2024년 2월 15일 ~ 2024년 2월 26일
@@ -43,3 +43,6 @@
         - 쪽지 정보를 DB서버에 입력하는 것을 실패하므로 “메세지 전송에 실패하였습니다.”메세지 출력
       2)	쪽지 전송 성공
         - 쪽지 정보가 DB서버에 저장되고 쪽지함 목록 페이지로 이동
+## 📞Contact
+  - 이메일 : kojinsug0404@gmail.com
+  - 깃허브 : ![image](https://github.com/jinko0404/portfolio/assets/152952078/91b37125-f4e1-4d6c-9f54-89986a964d7f)(https://github.com/jinko0404)
