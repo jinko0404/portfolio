@@ -11,7 +11,7 @@
 
 ### 🛫1. Are You T(rip mate)?
 * 여행 동행 친구 모집 사이트(KH정보교육원 - 1조 팀프로젝트)
-  - 프로젝트 상세 설명 : https://github.com/2311PublicDataWebApp/AreYouT.git
+  - 프로젝트 상세 설명 : [https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/AreYouT)
   - 개발 기간 : 2024년 2월 15일 ~ 2024년 2월 26일
   - 담당 역할 : 팀장, MVC패턴을 활용한 관리자 기능(회원 관리, 1대1 문의쪽지함, 쪽지 관리, 게시판 관리) 구현, JSP를 통한 웹 페이지 제작
 * Back-End
@@ -43,6 +43,38 @@
         - 쪽지 정보를 DB서버에 입력하는 것을 실패하므로 “메세지 전송에 실패하였습니다.”메세지 출력
       2)	쪽지 전송 성공
         - 쪽지 정보가 DB서버에 저장되고 쪽지함 목록 페이지로 이동
+
+### :wine_glass:2. Red Oasis
+* 와인 및 와이너리 정보 공유 커뮤니티(KH정보교육원 - 가팀 팀프로젝트)
+  - 프로젝트 상세 설명 : [https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/RedOasis)
+  - 개발 기간 : 2024년 2월 15일 ~ 2024년 2월 26일
+  - 담당 역할 : 팀원, JSP를 통한 웹 페이지 제작 및 네이버 지도 API를 활용한 와이너리 소개 메뉴 및 와인 소개 메뉴 구현
+* Back-End
+  - 사용 언어: JAVA
+  - 사용 기술: Spring FrameWork, OracleDB
+* Front-End
+  - 사용 언어: JavaScript/CSS/HTML
+  - 사용 기술: BootStrap, JQuery, Ajax
+* 기능구현
+  - 와이너리 소개(와이너리 지도)
+    ![image](https://github.com/jinko0404/portfolio/assets/152952078/af0079d5-299c-4690-92da-ab1973e8d986)
+    * 와이너리 등록 시 해당 와이너리의 주소로 좌표 값을 구하여 해당 좌표에 마커 표시
+      1)	마커 클릭 시 해당 좌표의 와이너리 상세 소개 페이지 이동
+      2)	네이버 지도 API 활용
+      3)	마커에 마우스를 가져다 댈 시 해당 와이너리의 이름 표시
+  - 와인 소개
+   ![image](https://github.com/jinko0404/portfolio/assets/152952078/63a718d3-c3c8-4b27-84b3-739c518985e8)
+    * 키워드를 입력하여 원하는 검색 결과가 목록에 나타날 수 있도록 검색 구현
+    * 카테고리 별로 목록 조회 할 수 있도록 구현
+      1) 카테고리 혹은 키워드를 RequestParam으로 받아 온 뒤에 Keyword값이 null 일시 category값을 넘겨주어 SELECT문 실행
+         * 카테고리 값이 NULL일 시 전체 결과 출력
+      2) 키워드 값이 null이 아닐 시 Keyword 값을 넘겨주어서 SELECT문 실행후 이름을 기준으로 검색된 결과값 반환
+  - 댓글 기능
+    ![image](https://github.com/jinko0404/portfolio/assets/152952078/ad36c13c-fdb0-43b5-8c1b-6160e1272e29)
+    * CRUD 형식으로 구현
+      1)	별점 기능 구현 : 와인 번호와 별점을 저장 하여 각 댓글의 점수 평균을 구하여 와인에 별점 부여
+      2)	삭제 버튼 : 로그인한 세션의 회원 정보를 활용하여 자신이 쓴 댓글만 삭제버튼 출력
+      3)	댓글 작성 완료 시 redirect로 새로고침
 ## 📞Contact
   - 이메일 : kojinsug0404@gmail.com
   - 깃허브 : https://github.com/jinko0404
