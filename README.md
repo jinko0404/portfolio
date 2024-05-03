@@ -47,7 +47,7 @@
 ### :wine_glass:2. Red Oasis
 * 와인 및 와이너리 정보 공유 커뮤니티(KH정보교육원 - 가팀 팀프로젝트)
   - 프로젝트 상세 설명 : [https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/RedOasis)
-  - 개발 기간 : 2024년 2월 15일 ~ 2024년 2월 26일
+  - 개발 기간 : 2024년 3월 11일 ~ 2024년 4월 01일
   - 담당 역할 : 팀원, JSP를 통한 웹 페이지 제작 및 네이버 지도 API를 활용한 와이너리 소개 메뉴 및 와인 소개 메뉴 구현
 * Back-End
   - 사용 언어: JAVA
@@ -75,6 +75,36 @@
       1)	별점 기능 구현 : 와인 번호와 별점을 저장 하여 각 댓글의 점수 평균을 구하여 와인에 별점 부여
       2)	삭제 버튼 : 로그인한 세션의 회원 정보를 활용하여 자신이 쓴 댓글만 삭제버튼 출력
       3)	댓글 작성 완료 시 redirect로 새로고침
+### :circus_tent:3. Fairy Town
+* 놀이동산 Fairy Town의 공식 홈페이지 제작(KH정보교육원 - ByKing팀 팀프로젝트)
+  - 프로젝트 상세 설명 : [[https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/RedOasis)](https://github.com/2311PublicDataWebApp/FairyTown)
+  - 개발 기간 : 2024년 4월 03일 ~ 2024년 4월 30일
+  - 담당 역할 : 팀원, JSP를 통한 웹 페이지 제작 및 카카오 로그인 API를 활용한 간편 로그인 및 세션을 활용한 회원 기능(로그인, 회원가입, 로그아웃, 마이페이지) 제작
+                , 스프링 시큐리티를 활용한 권한(User, Admin)부여 및 인증&인가 구현 및 회원 관리 기능 구현(블랙리스트, 일반 회원 관리)
+* Back-End
+  - 사용 언어: JAVA
+  - 사용 기술: Spring Boot, OracleDB, Spring Security
+* Front-End
+  - 사용 언어: JavaScript/CSS/HTML
+  - 사용 기술: BootStrap, JQuery, Ajax
+* 기능구현
+  - 회원가입 페이지
+    ![image](https://github.com/jinko0404/portfolio/assets/152952078/7008ee40-f5dd-43b3-99ac-2f86e9922a60)
+    * 유효성 검사 추가, 유효성 검사 불충족 시 가입버튼 비활성화
+      1)	Daum 주소 API를 활용한 주소 검색 기능 추가
+      2)	이메일 인증 기능 추가, 인증번호 전송 버튼 클릭 시 인증번호가 해당 이메일에 전송 됨
+      3)	비밀번호는 passwordEncoder활용하여 해싱하여 저장
+  - 로그인 페이지
+   ![image](https://github.com/jinko0404/portfolio/assets/152952078/9359e6fd-cd93-4eed-88d7-5cf4f9c92363)
+    * 비밀번호는 해싱하여 DB내의 비밀번호 정보와 대조
+      1) 시큐리티 로그인과 연동하여 로그인한 계정의 권한에 따라 활동의 제한이 걸린다.
+      2) 카카오 간편 로그인 기능 도입(초기 로그인 회원 일 시 추가 정보 입력 페이지로 이동)
+  - 블랙리스트 등록 기능
+    ![image](https://github.com/jinko0404/portfolio/assets/152952078/35335f63-88c1-4f5c-8b07-023e1ddfe956)
+    * CRUD 형식으로 구현
+      1)	기간과 정지 사유를 적고 등록 버튼 누를 시 정지 등록일과 해제일, 사유와 회원 정보가 블랙리스트 DB에 추가
+      2)	관리자는 정지 회원의 사유와 정보를 확인하고 임의로 블랙리스트에서 삭제할 수 있다.
+      3)	정지 기간 해제일에 도달했을 시 DB서버에서 스케쥴러를 활용하여 자동으로 블랙리스트에서 해당 회원의 정보 삭제
 ## 📞Contact
   - 이메일 : kojinsug0404@gmail.com
   - 깃허브 : https://github.com/jinko0404
