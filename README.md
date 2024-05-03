@@ -77,7 +77,7 @@
       3)	댓글 작성 완료 시 redirect로 새로고침
 ### :circus_tent:3. Fairy Town
 * 놀이동산 Fairy Town의 공식 홈페이지 제작(KH정보교육원 - ByKing팀 팀프로젝트)
-  - 프로젝트 상세 설명 : [[https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/RedOasis)](https://github.com/2311PublicDataWebApp/FairyTown)
+  - 프로젝트 상세 설명 :[(https://github.com/2311PublicDataWebApp/FairyTown](https://github.com/2311PublicDataWebApp/FairyTown)
   - 개발 기간 : 2024년 4월 03일 ~ 2024년 4월 30일
   - 담당 역할 : 팀원, JSP를 통한 웹 페이지 제작 및 카카오 로그인 API를 활용한 간편 로그인 및 세션을 활용한 회원 기능(로그인, 회원가입, 로그아웃, 마이페이지) 제작
                 , 스프링 시큐리티를 활용한 권한(User, Admin)부여 및 인증&인가 구현 및 회원 관리 기능 구현(블랙리스트, 일반 회원 관리)
