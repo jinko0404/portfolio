@@ -11,7 +11,7 @@
 
 ### 🛫1. Are You T(rip mate)?
 * 여행 동행 친구 모집 사이트(KH정보교육원 - 1조 팀프로젝트)
-  - 프로젝트 상세 설명 : [[https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/AreYouT)](https://github.com/jinko0404/AreYouT.git)
+  - 프로젝트 상세 설명 : [https://github.com/jinko0404/AreYouT.git](https://github.com/jinko0404/AreYouT.git)
   - 개발 기간 : 2024년 2월 15일 ~ 2024년 2월 26일
   - 담당 역할 : 팀장, MVC패턴을 활용한 관리자 기능(회원 관리, 1대1 문의쪽지함, 쪽지 관리, 게시판 관리) 구현, JSP를 통한 웹 페이지 제작
 * Back-End
