@@ -11,7 +11,7 @@
 
 ### 🛫1. Are You T(rip mate)?
 * 여행 동행 친구 모집 사이트(KH정보교육원 - 1조 팀프로젝트)
-  - 프로젝트 상세 설명 : [https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/AreYouT)
+  - 프로젝트 상세 설명 : [[https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/AreYouT)](https://github.com/jinko0404/AreYouT.git)
   - 개발 기간 : 2024년 2월 15일 ~ 2024년 2월 26일
   - 담당 역할 : 팀장, MVC패턴을 활용한 관리자 기능(회원 관리, 1대1 문의쪽지함, 쪽지 관리, 게시판 관리) 구현, JSP를 통한 웹 페이지 제작
 * Back-End
@@ -46,7 +46,7 @@
 
 ### :wine_glass:2. Red Oasis
 * 와인 및 와이너리 정보 공유 커뮤니티(KH정보교육원 - 가팀 팀프로젝트)
-  - 프로젝트 상세 설명 : [https://github.com/2311PublicDataWebApp/AreYouT.git](https://github.com/2311PublicDataWebApp/RedOasis)
+  - 프로젝트 상세 설명 : [https://github.com/jinko0404/RedOasis](https://github.com/jinko0404/RedOasis)
   - 개발 기간 : 2024년 3월 11일 ~ 2024년 4월 01일
   - 담당 역할 : 팀원, JSP를 통한 웹 페이지 제작 및 네이버 지도 API를 활용한 와이너리 소개 메뉴 및 와인 소개 메뉴 구현
 * Back-End
@@ -77,7 +77,7 @@
       3)	댓글 작성 완료 시 redirect로 새로고침
 ### :circus_tent:3. Fairy Town
 * 놀이동산 Fairy Town의 공식 홈페이지 제작(KH정보교육원 - ByKing팀 팀프로젝트)
-  - 프로젝트 상세 설명 :[(https://github.com/2311PublicDataWebApp/FairyTown](https://github.com/2311PublicDataWebApp/FairyTown)
+  - 프로젝트 상세 설명 : [https://github.com/jinko0404/FairyTown](https://github.com/jinko0404/FairyTown)
   - 개발 기간 : 2024년 4월 03일 ~ 2024년 4월 30일
   - 담당 역할 : 팀원, JSP를 통한 웹 페이지 제작 및 카카오 로그인 API를 활용한 간편 로그인 및 세션을 활용한 회원 기능(로그인, 회원가입, 로그아웃, 마이페이지) 제작
                 , 스프링 시큐리티를 활용한 권한(User, Admin)부여 및 인증&인가 구현 및 회원 관리 기능 구현(블랙리스트, 일반 회원 관리)
